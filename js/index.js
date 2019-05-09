@@ -204,13 +204,13 @@ $(document).ready(function() {
         });
         return false;
     });
-    // Maneja el mapa
-     var position = new google.maps.LatLng(10.503108, -66.909721);
-    $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
-            var self = this;
-            self.addMarker({'position': this.get('map').getCenter() }); 
-        }
-    }); 
+    // // Maneja el mapa
+    //  var position = new google.maps.LatLng(10.503108, -66.909721);
+    // $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
+    //         var self = this;
+    //         self.addMarker({'position': this.get('map').getCenter() }); 
+    //     }
+    // }); 
 
 
     // Hero word switcher
