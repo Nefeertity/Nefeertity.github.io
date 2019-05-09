@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'basic';
+	src:url('../fonts/CaviarDreams.ttf');
+	src:url('../fonts/CaviarDreams.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

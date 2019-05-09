@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'icomoon2';
+	src:url('../fonts/icomoon2.eot');
+	src:url('../fonts/icomoon2.eot') format('embedded-opentype'),
+		url('../fonts/icomoon2.ttf') format('truetype'),
+		url('../fonts/icomoon2.woff') format('woff'),
+		url('../fonts/icomoon2.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon2-"], [class*=" icon2-"] {
+	font-family: 'icomoon2';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon2-home2:before {
+	content: "\e613";
+}
+.icon2-office:before {
+	content: "\e600";
+}
+.icon2-file-text:before {
+	content: "\e602";
+}
+.icon2-display:before {
+	content: "\e603";
+}
+.icon2-mobile:before {
+	content: "\e604";
+}
+.icon2-tablet:before {
+	content: "\e605";
+}
+.icon2-stats-bars2:before {
+	content: "\e607";
+}
+.icon2-trophy:before {
+	content: "\e608";
+}
+.icon2-star-empty:before {
+	content: "\e60a";
+}
+.icon2-star-full:before {
+	content: "\e60b";
+}
+.icon2-table2:before {
+	content: "\e60c";
+}
+.icon2-embed2:before {
+	content: "\e60d";
+}
+.icon2-terminal:before {
+	content: "\e60e";
+}
+.icon2-file-pdf:before {
+	content: "\e611";
+}
+.icon2-file-word:before {
+	content: "\e612";
+}
