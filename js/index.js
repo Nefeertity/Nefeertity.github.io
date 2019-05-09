@@ -230,7 +230,7 @@ $(document).ready(function() {
     $(window).resize(function() {
         calculateWidths();
     });
-
+ 
     function doChange() {
         var nextItem;
         var currentItem = parseInt(switcher.find('.active').attr('data-oid'));
