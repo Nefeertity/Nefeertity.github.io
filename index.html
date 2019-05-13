@@ -850,6 +850,16 @@
 <script type="text/javascript" src="js/ekko-lightbox.min.js"></script>
 <script type="text/javascript">
     $(function(){
+	skrollr.init({
+	    forceHeight: false,
+	    mobileCheck: function(){
+	        if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+	            //alert('mobile');
+	            //setScrollTop(0);
+	            //Where should I set setScrollTop(0); ???
+	        }
+	    }
+	});
       $('#Container').mixItUp({
       	selectors: {
 	      filter: '.filter'
